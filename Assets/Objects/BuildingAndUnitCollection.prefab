@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: BuildingAndUnitCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.0314941, y: -15.2401371, z: 35.4323425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14138ac35ea61f14391add3674e0c3cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildings:
+  - {fileID: 11400002, guid: 26a27a819f662b44884b82329a195e3d, type: 2}
+  - {fileID: 11400000, guid: 856dcdad75b6ba24ea90c6b0996b2a17, type: 2}
+  - {fileID: 11400000, guid: 130f54a4b2c4bfb4ca20f3baaa34cc64, type: 2}
+  - {fileID: 11400002, guid: d73f6178cb758f84fa7de4ffd7329657, type: 2}
+  - {fileID: 11400002, guid: 40bb644491ee8484ab1acf9daa1e973b, type: 2}
+  - {fileID: 11400002, guid: ff393e27cb7b8fa42a348e03de665680, type: 2}
+  - {fileID: 11400000, guid: 0b02eccc98dbf014b873c45ef73934e6, type: 2}
+  units:
+  - {fileID: 11400000, guid: d2086d4e978a75d4491b6771971a3e22, type: 2}
+  - {fileID: 11400000, guid: f5dcfb001d9281943bcf1ec12eb0420e, type: 2}
+  - {fileID: 11400000, guid: d19d78c0ff72eae428957a4e35e9082d, type: 2}
+  - {fileID: 11400000, guid: d1c97f458645b5b4b898ce9ac0da211d, type: 2}
+  - {fileID: 11400000, guid: 116f0c44fec044143b60027fd1745e6f, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
